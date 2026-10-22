@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Stránka pre semestrálnu prácu">
+    <meta name="author" content="Viktor Tompoš">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Turnaj</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!--Logo a nazov-->
+            <div class="nav-brand">
+                <img src="logo.svg" alt="logo">
+                <a href="index.html" class="app-title">ArenaManager</a>
+            </div>
+            <!--Stred teda hlavne menu-->
+            <ul class="nav-links">
+                <li><a href="tournament.html">Turnaje</a></li>
+                <li><a href="#">Tímy</a></li>
+                <li><a href="#">Môj tím</a></li>
+                <li><a href="#">Profil</a></li>
+            </ul>
+            <!--Prihlasenie registracia-->
+            <div class="nav-auth-logged">
+                <span>Prihlásený: <strong>Viktor</strong></span>
+                <a href="#" class="btn">Odhlásiť sa</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <!--maly text-->
+        <div class="breadcrumbs">
+            <a href="index.html">Turnaje</a> / <span>Spring Cup 2026</span>
+        </div>
+
+        <!--Banner turnaja to bude nejaky obrazok-->
+        <div class="tournament-banner">
+            <img src="banner-CS2.jpg" alt="Banner turnaja">
+        </div>
+
+        <!--Hlavna stranka teda nazov, info, prihlasenie-->
+        <div class="tournament-main-grid">
+            <!--Info sekcia o turnaji-->
+            <div class="tournament-info-section">
+                <div class="tournament-header-row">
+                    <h1>Spring Cup 2026</h1>
+                    <span class="badge-open">Otvorené prihlášky</span>
+                </div>
+
+                <p class="tournament-description">
+                    Jarný turnaj pre amatérske tímy v hre Counter-Strike 2. Hrá sa v systéme play-off, každý zápas najlepšie z troch máp. Víťazný tím získa odmenu a miesto vo finále ligy.
+                </p>
+
+                <!--6 boxov s info o turnaji-->
+                <div class="tournament-cards-grid">
+                    <div class="info-card">
+                        <span class="card-label">Hra</span>
+                        <span class="card-value">Counter-Strike 2</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="card-label">Začiatok</span>
+                        <span class="card-value">18. 4. 2026, 10:00</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="card-label">Uzávierka prihlášok</span>
+                        <span class="card-value">10. 4. 2026</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="card-label">Miesto</span>
+                        <span class="card-value">Žilina, herňa Arena</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="card-label">Obsadenosť</span>
+                        <span class="card-value">5 / 8 tímov</span>
+                    </div>
+                    <div class="info-card">
+                        <span class="card-label">Odmena</span>
+                        <span class="card-value">500 €</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Box pre prihlasenie do timu-->
+            <div class="tournament-sidebar">
+                <div class="sidebar-box">
+                    <h2>Prihlásenie tímu</h2>
+                    <p>Prihlásiť tím môže len kapitán, a to pred uzávierkou.</p>
+                    <button class="btn-dark-large" type="button">Prihlásiť tím</button>
+                    <small>Ak nie si kapitán, tlačidlo je neaktívne. Pre neprihlaseného sa zobrazí odkaz na prihlásenie.</small>
+                </div>
+            </div>
+            <!--Tabulka timov-->
+            <section class="teams-section">
+                <h2>Prihlásené tímy</h2>
+                <table class="teams-table">
+                    <thead>
+                        <tr>
+                            <th>Logo</th>
+                            <th>Tím</th>
+                            <th>Kapitán</th>
+                            <th>Členov</th>
+                            <th>Stav prihlášky</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><div class="team-logo-box"></div></td>
+                            <td><a href="#">Žilinskí vlci</a></td>
+                            <td>Marek K.</td>
+                            <td>5</td>
+                            <td>Schválená</td>
+                        </tr>
+                        <tr>
+                            <td><div class="team-logo-box"></div></td>
+                            <td><a href="#">Nitra Esports</a></td>
+                            <td>Peter S.</td>
+                            <td>6</td>
+                            <td>Schválená</td>
+                        </tr>
+                        <tr>
+                            <td><div class="team-logo-box"></div></td>
+                            <td><a href="#">Tatra Gaming</a></td>
+                            <td>Jana H.</td>
+                            <td>5</td>
+                            <td>Schválená</td>
+                        </tr>
+                        <tr>
+                            <td><div class="team-logo-box"></div></td>
+                            <td><a href="#">Blue Hawks</a></td>
+                            <td>Tomáš R.</td>
+                            <td>5</td>
+                            <td>Čaká na schválenie</td>
+                        </tr>
+                        <tr>
+                            <td><div class="team-logo-box"></div></td>
+                            <td><a href="#">Zlatá päťka</a></td>
+                            <td>Lukáš B.</td>
+                            <td>5</td>
+                            <td>Čaká na schválenie</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!--Spodna sekcia oznamy vysledky-->
+            <div class="bottom-section-grid">
+                <!--Oznamy-->
+                <section class="announcements-section">
+                    <h2>Oznamy organizátora</h2>
+                    <div class="announcements-list">
+                        <div class="announcements-card">
+                            <div class="announcements-header">
+                                <strong>Zmena času začiatku</strong>
+                                <span>5. 4. 2026</span>
+                            </div>
+                            <p>Turnaj začne o 10:00 namiesto pôvodných 9:00. Prezentácia tímov bude od 9:15.</p>
+                        </div>
+                        <div class="announcements-card">
+                            <div class="announcements-header">
+                                <strong>Pravidlá turnaja zverejnené</strong>
+                                <span>28. 3. 2026</span>
+                            </div>
+                            <p>Podrobné pravidlá nájdete v informáciách o turnaji. Prosíme kapitánov, aby ich oboznámili s tímom.</p>
+                        </div>
+                    </div>
+                </section>
+                <!--Vysledky turnaja-->
+                <section class="results-section">
+                    <h2>Výsledky</h2>
+                    <table class="results-table">
+                        <thead>
+                        <tr>
+                            <th>Umiestnenie</th>
+                            <th>Tím</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Zatiaľ nezapísané</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Zatiaľ nezapísané</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Zatiaľ nezapísané</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <small class="results-note">Výsledky zapisuje administrátor po skončení turnaja.</small>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-name">
+            © ArenaManager - semestrálna práca z predmetu VAII
+        </div>
+        <div class="footer-contacts">
+            <span>Viktor Tompoš</span>
+            <span>5ZYI32</span>
+        </div>
+    </footer>
+</body>
+</html>
