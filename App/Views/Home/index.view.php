@@ -1,0 +1,17 @@
+<?php
+
+/** @var \Framework\Support\LinkGenerator $link */
+?>
+
+<h1>Úvodná stránka</h1>
+<div class="lore-ipsum">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra velit at enim viverra accumsan. Phasellus non ipsum ut mauris malesuada tristique a nec mauris. Curabitur eget nisi a nibh congue posuere. Etiam vitae odio in nulla malesuada lacinia. Suspendisse scelerisque nunc a ligula ullamcorper, eget consequat nibh placerat. Aliquam hendrerit elit nec nunc consequat interdum. Vivamus erat sem, porttitor id placerat vel, tempor ut justo. Morbi dictum dui eu purus mollis, quis pulvinar ligula volutpat. Phasellus euismod nisi ac lorem facilisis, id ullamcorper risus sollicitudin. Sed varius, justo pharetra rutrum commodo, dolor leo scelerisque nisl, a porttitor augue neque eu odio. </p>
+
+    <p>Morbi varius urna ex, eu faucibus lorem sagittis non. Nam quam metus, fringilla id leo vitae, pellentesque tincidunt est. Nullam posuere congue fermentum. Suspendisse interdum lectus turpis, in pulvinar metus ullamcorper eget. Vivamus sit amet mattis tellus. Maecenas cursus orci dolor, et tempus justo ultricies at. Nunc tincidunt, dui ac porta tincidunt, ex mauris ornare neque, posuere finibus nulla nisi ut nulla. In hac habitasse platea dictumst. Duis mattis sit amet leo eget blandit. Aliquam et lectus neque. Nulla faucibus blandit massa, nec mollis mauris luctus quis.</p>
+
+    <p>Phasellus quis mi dictum, rhoncus sem a, aliquet dolor. Praesent fermentum purus nunc, at tempus lectus gravida eu. Fusce varius massa ac lectus ultricies, at efficitur quam sodales. Aenean laoreet nisl leo, non tempus augue pharetra at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras accumsan est est, in malesuada urna dignissim ac. Nam quis molestie neque, id mollis enim. Aliquam quis laoreet nisi, quis vestibulum lectus. Pellentesque laoreet nibh eu lacus feugiat dignissim. Pellentesque pretium augue vitae massa hendrerit, accumsan auctor velit pulvinar. Maecenas viverra euismod tincidunt. Sed eget commodo quam, id feugiat magna.</p>
+
+    <p>Donec iaculis ligula ac massa ultrices, a porttitor dui laoreet. Phasellus euismod mollis fringilla. Curabitur vulputate nulla id est lacinia, eget egestas orci iaculis. Integer a mauris sit amet ligula maximus tempor. In ut laoreet enim. Etiam vel lectus non ante ultrices vestibulum. Fusce lacinia et odio sit amet dapibus. Nulla facilisi. Vestibulum a pellentesque ipsum. Aliquam erat volutpat. Duis id elit nec lacus semper ullamcorper iaculis eget neque. Sed vitae laoreet mauris, in gravida sem.</p>
+
+    <p>Mauris lorem quam, blandit in sem quis, dapibus facilisis sem. In id est sodales, feugiat elit vitae, fermentum augue. Duis mattis a orci ut vulputate. Quisque dui urna, viverra ac neque vel, rhoncus blandit lorem. Nullam facilisis elementum sem ac ultricies. Sed vitae neque in elit ultricies tincidunt. Phasellus tristique finibus purus, sit amet molestie elit pulvinar gravida. Morbi in luctus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris lobortis sapien odio, in porttitor lectus pulvinar quis. Aenean gravida augue eget libero congue varius.</p>
+</div>

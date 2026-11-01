@@ -367,4 +367,9 @@ footer {
         gap: 10px;
         text-align: left;
     }
+    /*Skrytie loga, mozno skryjem nieco ine zatial logo*/
+    .teams-table th:nth-child(1),
+    .teams-table td:nth-child(1) {
+        display:  none;
+    }
 }

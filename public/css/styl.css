@@ -1,0 +1,381 @@
+/*Zobrazenie na celu stranku*/
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+/*Cela navigacia*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    font-weight: bold;
+}
+
+/*Lava strana teda logo a nazov*/
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/*Title*/
+.app-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+/*Stredna strana navigacia cize buttony turnaje, moje timy...*/
+.nav-links {
+    display: flex;
+    list-style-type: none; /*zbavenie sa bodiek*/
+    margin-left: 20px;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #84060d;
+    position: relative;
+}
+
+/*Do buducna nejake hover effects*/
+.nav-links a:hover {
+    color: #000;
+}
+
+/*Prava strana teda prihlasenie a registracia*/
+.nav-auth {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: auto;
+}
+
+/*Outline na button prihlasit toto sa bude menit este*/
+.btn {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+/*Zobrazenie na celu stranku*/
+main {
+    flex: 1;
+}
+
+.lore-ipsum {
+    padding: 10px 10px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    color: gray;
+    border-top: 1px solid #ccc;
+}
+
+.footer-contacts {
+    display: flex;
+    gap: 20px;
+}
+
+/*TURNAJE STRANKA*/
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 16px;
+    max-width: 1600px;
+}
+
+/*Ten text nech je mensi a sedy (breadcrumbs)*/
+.breadcrumbs {
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/*Banner turnaja*/
+.tournament-banner {
+    width: 100%;
+    height: 250px;
+    border: 2px dashed #888;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.tournament-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Mriezka pre detail turnaja*/
+.tournament-main-grid {
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+/*Lavy stlpec*/
+.tournament-header-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.tournament-header-row h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.tournament-info-section {
+    margin-bottom: 50px;
+}
+
+.badge-open {
+    border: 1px solid #000;
+    padding: 5px 12px;
+    font-weight: bold;
+}
+
+.tournament-description {
+    line-height: 1.6;
+    color: #474747;
+    margin-bottom: 25px;
+}
+
+/*Informacne boxy*/
+.tournament-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.info-card {
+    border: 1px solid gray;
+    padding: 15px;
+    display: flex;
+    flex-direction: column; /*zarovno*/
+    gap: 5px;
+}
+
+.card-label {
+    font-weight: bold;
+}
+
+/*Prihlasenie timu*/
+.tournament-sidebar {
+    margin-bottom: 40px;
+    flex: 1;
+}
+
+.sidebar-box {
+    border: 1px solid #000;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar-box p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+/*Tlacidlo na prihlasenie*/
+.btn-dark-large {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/*Hover pre butto bude sa menit*/
+.btn-dark-large:hover {
+    background-color: #333;
+}
+
+/*Prihlasenie uzivatela v navigacii*/
+.nav-auth-logged {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+}
+
+/*Prihlasene timy*/
+.teams-section {
+    margin-bottom: 40px;
+    overflow-x: auto;
+}
+
+/*Cela tabulka*/
+.teams-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.teams-table th, .teams-table td {
+    border: 1px solid black;
+    padding: 12px 15px;
+}
+
+.teams-table th {
+    background-color: #f4f4f4;
+}
+
+.team-logo-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+/*OZNAMY A VYSLEDKY*/
+.bottom-section-grid {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+/*Lava strana*/
+.announcements-section {
+    flex: 1;
+}
+
+.announcements-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.announcements-card {
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+
+.announcements-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/*Prava strana teda vysledky*/
+.results-section {
+    flex: 1;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.results-table th, .results-table td {
+    border: 1px solid #000;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.results-table th {
+    background-color: #f4f4f4;
+}
+
+/*RESPONZIVNOST*/
+/*Mobil tablet mensie obrazovky je to 768px*/
+@media screen and (max-width: 768px) {
+
+    /*Navigacia zmena odhlasenia prihlasenia nech to je pod sebou*/
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .nav-links {
+        margin-left: 0;
+        padding-left: 0;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .nav-auth {
+        display: flex;
+        margin-left: 0;
+    }
+
+    .nav-auth-logged {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .nav-brand {
+        justify-content: center;
+    }
+
+    /*Menime boxy nech su 2 stlpce pod sebou*/
+    .tournament-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*Oznamy vysledky nech su pod sebou*/
+    .bottom-section-grid {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .results-section {
+        width: 100%;
+    }
+
+    /*Paticka*/
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        text-align: left;
+    }
+    /*Skrytie loga, mozno skryjem nieco ine zatial logo a pocet clenov*/
+    .teams-table th:nth-child(1),
+    .teams-table td:nth-child(1),
+    .teams-table th:nth-child(4),
+    .teams-table td:nth-child(4) {
+        display:  none;
+    }
+
+    .teams-table {
+        padding: 100px;
+    }
+}
