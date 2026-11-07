@@ -27,7 +27,7 @@
             </div>
             <!--Stred teda hlavne menu-->
             <ul class="nav-links">
-                <li><a href="<?= $link->url('tournament.detail') ?>">Turnaje</a></li>
+                <li><a href="<?= $link->url('tournament.index') ?>">Turnaje</a></li>
                 <li><a href="#">Tímy</a></li>
                 <li><a href="#">Môj tím</a></li>
                 <li><a href="#">Profil</a></li>

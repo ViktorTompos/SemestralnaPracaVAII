@@ -19,7 +19,10 @@ CREATE TABLE `tournaments` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_uca1400_ai_ci;
 
-INSERT INTO `tournaments` (`id`, `name`, `game`, `start_date`, `location`, `max_teams`, `prize`) VALUES
-(1,	'Spring Cup 2026',	'Counter-Strike 2',	'2026-04-18',	'Žilina, herňa Arena',	8,	500);
+INSERT INTO `tournaments` (`name`, `game`, `start_date`, `location`, `max_teams`, `prize`) VALUES
+('Spring Cup 2026', 'Counter-Strike 2', '2026-04-18', 'Žilina, herňa Arena', 8, 500),
+('Autumn League', 'League of Legends', '2026-10-24', 'Online', 16, 1000),
+('Žilina Open', 'Valorant', '2026-12-05', 'Žilina, UNIZA', 12, 300),
+('Nitra Clash', 'Rocket League', '2027-01-16', 'Nitra, Mestská hala', 8, 200);
 
 -- 2026-11-06 08:02:04 UTC

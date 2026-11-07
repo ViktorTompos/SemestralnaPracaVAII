@@ -379,3 +379,51 @@ footer {
         padding: 100px;
     }
 }
+
+.tournaments-list {
+    overflow-x: auto;
+}
+
+.tournaments-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tournaments-table th,
+.tournaments-table td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.tournaments-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.tournaments-actions form {
+    margin: 0;
+}
+
+.tournament-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+}
+
+.tournament-form input {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.tournament-form-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.form-error {
+    color: red;
+    font-weight: bold;
+}
