@@ -33,6 +33,8 @@
                 <li><a href="#">Profil</a></li>
                 <li><a href="#">Správa turnajov</a></li>
                 <li><a href="#">Správa prihlášok</a></li>
+                <!-- Zatial staticky detail stranky z minuleho tyzdna, toto sa bude menit len aby tato stranka bola dostupna-->
+                <li><a href="<?= $link->url('tournament.detail') ?>">Detail turnaja</a></li>
             </ul>
             <!--Prihlasenie registracia-->
             <div class="nav-auth">
